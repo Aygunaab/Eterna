@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220120160526_CreatedPortfolioTable.cs" />
+    <Compile Remove="Migrations\20220120160526_CreatedPortfolioTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120161707_CreatedCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120161707_CreatedCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120162048_EditCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120162048_EditCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120162250_CategoryTable.cs" />
+    <Compile Remove="Migrations\20220120162250_CategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120171006_creattedCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120171006_creattedCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120171326_CrettedCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120171326_CrettedCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120171601_creProductTable.cs" />
+    <Compile Remove="Migrations\20220120171601_creProductTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120173334_EditCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120173334_EditCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120174010_CreattteddCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120174010_CreattteddCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120174215_CreetttedddCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120174215_CreetttedddCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120174309_crettedddCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120174309_crettedddCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120174441_CreateddCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120174441_CreateddCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120174536_CreateddPortfolioTable.cs" />
+    <Compile Remove="Migrations\20220120174536_CreateddPortfolioTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120174830_CreateddCategoryTable.cs" />
+    <Compile Remove="Migrations\20220120174830_CreateddCategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120175027_CategoryTable.cs" />
+    <Compile Remove="Migrations\20220120175027_CategoryTable.Designer.cs" />
+    <Compile Remove="Migrations\20220120175848_PortfolioTable.cs" />
+    <Compile Remove="Migrations\20220120175848_PortfolioTable.Designer.cs" />
+    <Compile Remove="Migrations\20220121123059_CreatedClientstable.cs" />
+    <Compile Remove="Migrations\20220121123059_CreatedClientstable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.22">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
